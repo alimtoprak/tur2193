@@ -23,4 +23,8 @@ async def heh(ctx, count_heh = 5):
 async def parola(ctx,parola_uzunlugu)
     await ctx.send(parola_yarat[parola_uzunlugu])
 
+@bot.command()
+async def sunucubilgi(ctx):
+    await ctx.send(f'sunucu herkesin oluşturabileceği sohbet yeridir! ')
+
 bot.run("MTI1MjU4MzM0NDUyNTI3OTMzMw.GflGvl.NBnPbu8JszmyN1yjqcW0vIp5F9jidesVOgFvKc")
